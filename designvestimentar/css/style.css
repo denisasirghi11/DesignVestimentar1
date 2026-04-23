@@ -1,0 +1,182 @@
+body {
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.index {
+  background-image: url("https://images.unsplash.com/photo-1512436991641-6745cdb1723f");
+}
+
+.trenduri {
+  background-image: url("https://thumbs.dreamstime.com/b/sunlit-minimalist-clothing-boutique-interior-natural-textures-design-neutral-color-palette-potted-plants-create-calming-367551018.jpg");
+}
+
+.designeri {
+  background-image: url("https://t3.ftcdn.net/jpg/15/10/22/00/360_F_1510220082_TKS4fAj3qoJjd1ItGN8ntwsvatyyhJ1F.jpg");
+}
+
+
+.chenar {
+  background-color: rgba(255, 182, 193, 0.473); 
+  border: 2px dashed #c48b9f;
+  border-radius: 25px;
+  padding: 20px;
+  width: 70%;
+  margin: 40px auto;
+}
+
+
+.text-box {
+  background-color: rgba(255, 255, 255, 0.644);
+  border-radius: 15px;
+  padding: 15px;
+  margin: 15px 0;
+}
+
+button {
+  border-radius: 25px;
+  padding: 10px 20px;
+  background-color: #f8c8dc;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #f4a6c1;
+}
+
+
+img {
+  border-radius: 15px;
+  max-width: 100%;
+  margin-top: 10px;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+th, td {
+  border: 1px solid #888;
+  padding: 10px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+ul, ol {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+
+iframe {
+  margin-top: 15px;
+  border-radius: 15px;
+  max-width: 100%;
+}
+
+
+.designer-box {
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 20px;
+  padding: 15px;
+  margin: 15px 0;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+
+.designer-box img {
+  width: 120px;
+  border-radius: 15px;
+}
+
+
+.designer-box p {
+  margin: 5px 0;
+}
+
+
+.chenar:hover {
+  transform: scale(1.01);
+  transition: 0.3s;
+}
+nav-buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+.nav-buttons a button {
+  background: linear-gradient(135deg, #f8c8dc, #f4a6c1);
+  border: none;
+  color: black;
+  padding: 12px 25px;
+  margin: 8px;
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+
+ 
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+
+  
+  transition: all 0.3s ease;
+}
+
+
+.nav-buttons a button:hover {
+  transform: translateY(-3px);
+  background: linear-gradient(135deg, #f4a6c1, #f8c8dc);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+}
+
+
+.nav-buttons a button:active {
+  transform: scale(0.95);
+}
+.index h1{
+   color: #fdfafb;
+}
+.index p{ 
+    font-size: 22px;
+}
+.index ul{
+    font-size: 22px;
+
+}
+.index img{
+    border-radius: 15px;
+    width: 500px;
+}
+.trenduri p{ 
+    font-size: 22px;
+}
+.trenduri th{
+    font-size: 22px;
+}
+.designeri p{
+    font-size: 22px;
+}
+.designeri img{
+    border-radius: 15px;
+    width: 250px;
+}
+.trenduri h1{
+    color: #faf8f8;
+}
+.trenduri h2{
+    color: #460320;
+}
+.designeri h1{
+    color:#fdfafb
+}
